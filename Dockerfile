@@ -9,5 +9,5 @@ RUN apt-get install -y openssh-server openssh-client
 RUN apt-get install -y wget curl
 RUN apt-get install -y expect rsync
 
-WORKDIR /work
+WORKDIR /root
 CMD [ "bash" ]
